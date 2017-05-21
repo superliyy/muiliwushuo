@@ -1,0 +1,63 @@
+{
+    "code": 200,
+    "data": {
+        "candidates": [
+            {
+                "editable": true,
+                "id": 9,
+                "name": "送男友",
+                "url": ""
+            },
+            {
+                "editable": true,
+                "id": 5,
+                "name": "送闺蜜",
+                "url": ""
+            },
+            {
+                "editable": true,
+                "id": 17,
+                "name": "送同事",
+                "url": ""
+            },
+            {
+                "editable": true,
+                "id": 6,
+                "name": "送长辈",
+                "url": ""
+            }
+        ],
+        "channels": [
+            {
+                "editable": false,
+                "id": 107,
+                "name": "精选"
+            },
+            {
+                "editable": true,
+                "id": 9,
+                "name": "送男友",
+                "url": ""
+            },
+            {
+                "editable": true,
+                "id": 5,
+                "name": "送闺蜜",
+                "url": ""
+            },
+            {
+                "editable": true,
+                "id": 17,
+                "name": "送同事",
+                "url": ""
+            },
+            {
+                "editable": true,
+                "id": 6,
+                "name": "送长辈",
+                "url": ""
+            }
+        ]
+    },
+    "message": "OK"
+}

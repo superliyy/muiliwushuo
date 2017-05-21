@@ -1,0 +1,15 @@
+[
+	{
+		"title":"每日推荐",
+		"img":"../gift/top01.jpg"
+	},
+	{
+		"title":"TOP100",
+		"img":"../gift/top03.jpg"
+	},
+	{
+		"title":"独立原创榜",
+		"img":"../gift/top02.jpg"
+	}
+
+]

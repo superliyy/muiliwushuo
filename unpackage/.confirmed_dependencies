@@ -1,0 +1,130 @@
+{
+	"index.html": {
+		"resources": [
+			"views/top.html",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/index.js",
+			"lib/mui.js",
+			"iconfont/iconfont.woff",
+			"iconfont/iconfont.css",
+			"views/me.html",
+			"views/home.html"
+		],
+		"refer": [
+			"views/top.html",
+			"views/me.html",
+			"views/category.html",
+			"views/home.html"
+		]
+	},
+	"views/home.html": {
+		"resources": [
+			"css/mui.css",
+			"js/home.js",
+			"lib/mui.js",
+			"views/home-main.html",
+			"json/homeTitle.json",
+			"fonts/mui.ttf",
+			"iconfont/iconfont.woff",
+			"iconfont/iconfont.css"
+		],
+		"refer": [
+			"views/home-main.html",
+			"views/erweima.html"
+		]
+	},
+	"views/home-main.html": {
+		"resources": [
+			"js/homeMain.js",
+			"css/mui.css",
+			"lib/mui.js",
+			"json/homeScroll.json",
+			"json/homeBanner.json",
+			"json/homeList5.json",
+			"json/homeList17.json",
+			"json/homeList107.json",
+			"json/homeList9.json",
+			"json/homeList6.json",
+			"icon.jpg",
+			"gift/1.png"
+		],
+		"refer": []
+	},
+	"views/category.html": {
+		"resources": [
+			"lib/mui.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"js/category.js",
+			"views/categoryMain.html"
+		],
+		"refer": [
+			"views/categoryMain.html"
+		]
+	},
+	"views/top.html": {
+		"resources": [
+			"css/mui.min.css",
+			"lib/mui.js",
+			"js/top.js",
+			"iconfont/iconfont.woff",
+			"iconfont/iconfont.css",
+			"json/toptitle.json"
+		],
+		"refer": [
+			"views/topMain.html"
+		]
+	},
+	"views/me.html": {
+		"resources": [
+			"css/mui.min.css",
+			"lib/mui.js"
+		],
+		"refer": []
+	},
+	"test.html": {
+		"resources": [
+			"gift/1.png",
+			"css/mui.css",
+			"gift/2.png",
+			"lib/mui.js",
+			"gift/3.png",
+			"gift/5.png",
+			"gift/4.png"
+		],
+		"refer": []
+	},
+	"views/erweima.html": {
+		"resources": [
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"lib/mui.min.js"
+		],
+		"refer": []
+	},
+	"views/categoryMain.html": {
+		"resources": [
+			"js/categoryMain.js",
+			"lib/mui.min.js",
+			"css/mui.min.css",
+			"iconfont/iconfont.woff",
+			"iconfont/iconfont.css",
+			"json/strategy.json",
+			"iconfont/iconfont.ttf",
+			"json/otherStrategy.json",
+			"json/single.json"
+		]
+	},
+	"views/topMain.html": {
+		"resources": [
+			"lib/mui.min.js",
+			"js/topMain.js",
+			"css/mui.min.css",
+			"gift/top01.jpg",
+			"gift/top03.jpg",
+			"gift/top02.jpg",
+			"json/topContent.json"
+		]
+	}
+}

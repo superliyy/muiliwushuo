@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+    <link rel="stylesheet" href="../iconfont/iconfont.css" />
+    
+    <style>
+    	em{
+    		font-style: normal;
+    		margin-left: 6px;
+    	}
+    	.mui-bar{
+    		box-shadow: none;
+    		background: #fffefe;
+    		padding-top: 7px;
+    		display: flex;
+    	}
+    	.mui-bar h1{
+    		margin-left: 15px;
+    		padding-top: 6px;
+		    width: 55px;
+		    height: 17px;
+		    color: #ff2d47;
+		    font-size: 17px;
+		    box-sizing: border-box;
+    	}
+    	.serach-bar{
+    		margin-left: 15px;
+    		width: 66%;
+    		height: 30px;
+    		background: #faf5f5;
+    		border-radius: 7px;
+    	}
+    	.serach-bar span{
+    		color: #8c7878;
+    		font-size: 13px;
+    		display: list-item;
+    		list-style: none;
+		    text-align: center;
+		    line-height: 30px;
+    	}
+    	.mui-icon{
+    		margin-left: 15px;
+    		flex: 1;
+    	}
+    	
+    	.liwu-sub-header{
+    		width: 100%;
+    		height: 40px;
+    		/*display: flex;*/
+    		background: #fffefe;
+    		position: absolute;
+			top: 44px;
+			left: 0;
+    	}
+    	
+    	.liwu-sub-header:after{
+    		content: '';
+    		display: block;
+    		left: 0;
+    		bottom: -1px;
+    		height: 1px;
+    		width: 100%;
+    		position: absolute;
+    		border-top: 1px solid #f0e6e6;
+    		transform: scaleY(0.5);
+    	}
+    	
+    	.liwu-sub-header .item{
+    		/*flex: 1;*/
+    		/*height: 95%;*/
+    		/*height: 40px;*/
+    		/*line-height: 40px;*/
+    		text-align: center;
+    		color: #321e1e ;
+    		padding: 5%;
+    		padding-left: 0;
+    		padding-right: 0;
+    		margin: 0 5%;
+    		font-size: 12px;
+    	}
+    	.liwu-sub-header .item.item-active{
+    		color: #ff2d47;
+    		border-bottom: 2px solid #ff2d47;
+    		/*transform: scale(0.5);*/
+    	}
+    	.mui-bar-nav.mui-bar .mui-icon {
+		   padding: 0;
+		   margin: 0;
+		   font-size: 12px;
+		}
+		.mui-icon.iconfont.icon-erweimasaomiaohei{
+			font-size: 16px;
+			color: #ff2d47;
+			line-height: 30px;
+    		text-align: right;
+		}
+		.mui-icon-search{
+			margin-left: 6px;
+		}
+	    
+		
+    </style>
+</head>
+<body>
+    
+    <script src="../lib/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/home.js"></script>
+
+	<header class="mui-bar mui-bar-nav">
+	    <h1>礼物说</h1>
+	    <div class="serach-bar">
+	    	<span class="mui-icon mui-icon-search"><em>选份走心好礼送给ta</em></span>
+	    </div>
+	    <span class="mui-icon iconfont icon-erweimasaomiaohei"></span>
+	</header>
+    <div class="liwu-sub-header">
+    	
+    </div>
+    
+</body>
+</html>

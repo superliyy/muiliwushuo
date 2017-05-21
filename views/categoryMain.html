@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css"/>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+				background: #faf5f5;
+			}
+			.page-slider,.page-slider .mui-slider-group,.page-slider .mui-slider-group .mui-slider-item{
+				width: 100%;
+				height: 100%;
+			}
+			.column-wrapper{
+				width: 100%;
+				background: #fffefe;
+			}
+			.column-title-wrapper{
+				width: 100%;
+				height: 26px;
+				display: flex;
+				padding-left:  10px;
+				padding-right:  10px;
+				box-sizing: border-box;
+			}
+			.column-title-wrapper h3{
+				flex: 1;
+				color: #a19090;
+				font-size: 12px;
+				margin: 0;
+			}
+			.column-title-right{
+				line-height: 12px;
+				color: #837575;
+				font-size: 12px;
+			}
+			.icon-sanjiaoxing{
+				color: #8c7878;
+				font-size: 8px;
+				padding-left: 5px;
+			}
+			.column-scroll-wrapper{
+				width: 100%;
+				height: 250px;
+				padding-left: 10px;
+				padding-bottom: 10px;
+				box-sizing: border-box;
+				top: 26px;
+				background:#fffefe ;
+				overflow: hidden;
+				position: absolute;
+			}
+			.column-scroll{
+				
+				width: 300%;
+				height: 100%;
+			}
+			.column-item{
+				width:25%;
+				height: 80px;
+				display: flex;
+				float: left;
+			}
+			.colum-picture{
+				width: 46.25%;
+				height: 70px;
+			}
+			.colum-picture img{
+				height: 100%;
+			}
+			.colum-content{
+				/*width: 15%;*/
+				flex: 1;
+				margin-left: 10px;
+				margin-top: 11px;
+			}
+			.colum-content h6{
+				color: #321e1e;
+				font-size: 14px;
+				height: 27px;
+				margin: 0;
+			}
+			.colum-content p{
+				color: #a09696;
+				font-size: 10px;
+			}
+			
+			.class-wrapper{
+    			/*margin-top: 278px;*/
+    			margin-top: 10px;
+    			/*padding: 0 10px;*/
+    			background: #ffffff;
+    			padding-bottom: 5px;
+			}
+			.first-class{
+				margin-top: 260px;
+				box-sizing: border-box;
+			}
+			.class-title-wrapper{
+				height: 40px;
+				width: 100%;
+				padding: 0 10px;
+				box-sizing: border-box;
+			}
+			.class-title-wrapper h3{
+				line-height: 40px;
+			}
+			.class-title-right{
+				line-height: 40px;
+			}
+			.page-scroll-wrapper{
+				width: 100%;
+				height: 100%;
+				/*position: absolute;*/
+			}
+			
+			/*两个collectionView*/
+			.class-content{
+				width: 100%;
+				overflow: hidden;
+			}
+			.class-picture{
+				width: 44%;
+				float: left;
+				margin:0 3%;
+				border-radius: 2px;
+				/*box-sizing: border-box;*/
+			}
+			.class-picture img{
+				width: 100%;
+			}
+			/*single*/
+			/*single*/
+			.single-item{
+				display: flex;
+			}
+			.single-title-scroll-wrapper{
+				width: 22.67%;
+				height: 100%;
+			}
+			.single-content-scroll-wrapper{
+				width: 77.33%;
+				height: 100%;
+				left: 22.67%;
+				background: #ffffff;
+			}
+			.single-content-scroll,.single-title-scroll{
+				width: 100%;
+			}
+			.single-title-scroll h2{
+				width: 100%;
+				height: 46px;
+				text-align: center;
+				line-height: 46px;
+				box-sizing: border-box;
+				border-left: 3px solid #f6f6f7;
+				color: #333333;
+				font-size: 14px;
+				margin: 0;
+				background: #f6f6f7;
+			}
+			.single-title-scroll  .active-h{
+				border-left: 3px solid #ff0000;
+				color: #ff2e48;
+				background: white;
+			}
+			.single-content-scroll{
+				box-sizing: border-box;
+				padding: 46px 5% 0 5%;
+			}
+			.content-item{
+				width: 100%;
+				box-sizing: border-box;
+				position: relative;
+				/*overflow: hidden;*/
+				
+			}
+			.content-item0{
+				padding-bottom: 60px;
+			}
+			.content-item:after{
+				content: '';
+				clear: both;
+				height: 0;
+				display: block;
+				overflow: hidden;
+			}
+			.c-title{
+				position: absolute;
+				left: 40%;
+				top: -10px;
+				/*transform: translateX(-60%);*/
+				font-size: 12px;
+				color: #9a9a9e;
+				padding: 0 9px;
+				background: white;
+			}
+			.content-title{
+				border-top: 1px solid #e0e0e0;
+				padding: 20px 0 60px 0;
+			}
+			.content-item li{
+				float: left;
+				width: 33%;
+			}
+			.content-item li p{
+				color: #333333;
+				font-size: 10px;
+				text-align: center;
+			}
+			.content-item-img{
+				width: 100%;
+				height: 83px;
+			}
+			.content-item-img img{
+				height: 100%;
+				display: block;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		
+		<div class="mui-slider page-slider">
+		  <div class="mui-slider-group">
+		    <!--第一个内容区容器-->
+		    <div class="mui-slider-item strategy-item">
+		      <!-- 具体内容 -->
+		      <!--栏目-->
+		      	<div class="mui-scroll-wrapper page-scroll-wrapper">
+		    	<div class="mui-scroll page-scroll">
+		    		
+		      	<div class="column-wrapper" >
+			      	<div class="column-title-wrapper">
+			      		<h3>栏目</h3>
+			      		<span class="column-title-right">查看全部<span class="iconfont icon-sanjiaoxing"></span></span>
+			      	</div>
+			      	<div class="mui-scroll-wrapper column-scroll-wrapper">
+			      	    <div class="mui-scroll column-scroll">
+			      	        
+			      	        <!--<div class="column-item">
+			      	        	<div class="colum-picture">
+			      	        		<img src="http://img03.liwushuo.com/image/160713/zlsbvl5it.jpg?imageView2/2/w/720/q/85/format/webp" />
+			      	        	</div>
+			      	        	<div class="colum-content">
+			      	        		<h6>美物收割机</h6>
+			      	        		<p>美物娘</p>
+			      	        	</div>
+			      	        </div>-->
+			      	    </div>
+			      	</div>
+			    </div>
+		      	<!--品类-->
+		      	
+		      	<!--<div class="class-wrapper">
+		      		<div class="column-title-wrapper class-title-wrapper">
+			      		<h3>栏目</h3>
+			      		<span class="column-title-right class-title-right">查看全部<span class="iconfont icon-sanjiaoxing"></span></span>
+		      		</div>
+		      		<div class="class-content">
+		      			<div class="class-picture">
+		      				<img src="http://img01.liwushuo.com/image/161108/a9lk7ujyu.png" />
+		      			</div>
+		      			
+		      		</div>
+		      	</div>-->
+		      
+		      	<!--风格-->
+		      	</div>
+				</div>
+		    </div>
+		    
+		    
+		    <!--第二个内容区-->
+		    <div class="mui-slider-item single-item">
+		      <!-- 具体内容 -->
+		      <div class="mui-scroll-wrapper single-title-scroll-wrapper">
+		          <div class="mui-scroll single-title-scroll">
+		              <!--这里放置真实显示的DOM内容-->
+		              <!--<h2 class="active-h">热门11</h2>
+		              <h2>热门22</h2>-->
+		          </div>
+		      </div>
+		      
+		      <div class="mui-scroll-wrapper single-content-scroll-wrapper">
+		          <div class="mui-scroll single-content-scroll">
+		              <!--这里放置真实显示的DOM内容-->
+		              	
+		              	<!--<ul class="content-item content-title">
+		              		
+		              		<span class="c-title">个性配饰</span>
+		              		
+		              		<li>
+		              			<div class="content-item-img"><img src="http://img02.liwushuo.com/image/150615/urgs9vy8a.png-pw144" /></div>
+		              			<p>创意礼物</p>
+		              		</li>
+		              		
+		              		<li>
+		              			<div class="content-item-img"><img src="http://img02.liwushuo.com/image/150615/urgs9vy8a.png-pw144" /></div>
+		              			<p>创意礼物</p>
+		              		</li>
+		              	</ul>-->
+		              
+		              
+		              
+		              
+		              
+		          </div>
+		      </div>
+		      
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		<script src="../lib/mui.min.js"></script>
+		<script type="text/javascript" src="../js/categoryMain.js" ></script>
+	</body>
+
+</html>
